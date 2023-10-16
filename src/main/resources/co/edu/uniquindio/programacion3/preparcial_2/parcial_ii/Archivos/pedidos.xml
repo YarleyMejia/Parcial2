@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.8.1" class="java.beans.XMLDecoder">
+ <object class="co.edu.uniquindio.programacion3.preparcial_2.parcial_ii.modelo.Pedido">
+  <void property="cliente">
+   <object class="co.edu.uniquindio.programacion3.preparcial_2.parcial_ii.modelo.Cliente">
+    <void property="apellidos">
+     <string>Mendez</string>
+    </void>
+    <void property="cedula">
+     <string>6565</string>
+    </void>
+    <void property="codigo">
+     <string>5454</string>
+    </void>
+    <void property="nombre">
+     <string>JORGE2</string>
+    </void>
+    <void property="telefono">
+     <string>312332</string>
+    </void>
+    <void property="tipoIdentificacion">
+     <string>CC</string>
+    </void>
+   </object>
+  </void>
+  <void property="fecha">
+   <string>12-10-2023</string>
+  </void>
+  <void property="productos">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="co.edu.uniquindio.programacion3.preparcial_2.parcial_ii.modelo.Producto">
+      <void property="codigo">
+       <string>546546</string>
+      </void>
+      <void property="nombre">
+       <string>Jabon</string>
+      </void>
+      <void property="precio">
+       <string>45000</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="co.edu.uniquindio.programacion3.preparcial_2.parcial_ii.modelo.Producto">
+      <void property="codigo">
+       <string>5326</string>
+      </void>
+      <void property="nombre">
+       <string>bolso</string>
+      </void>
+      <void property="precio">
+       <string>12000</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="total">
+   <string>45000</string>
+  </void>
+ </object>
+</java>
